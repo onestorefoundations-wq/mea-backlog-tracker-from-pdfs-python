@@ -1,0 +1,30 @@
+# --- Real student data (do NOT commit) ---
+pdfs/
+semester_detailed_pdfs/
+# Generated output CSVs
+student_grades.csv
+semester_pass_fail.csv
+# User-specific config (keep your own copy locally)
+config.csv
+first_chance_map.csv
+
+# Sample data IS tracked (whitelisted)
+!sample_pdfs/
+!sample_pdfs/**
+
+# --- Python ---
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
